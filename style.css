@@ -1,0 +1,138 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+
+    opacity: 0.9;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h2 {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+
+}
+
+h4 {
+    text-align: center;
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+}
+
+h5 {
+    text-align: center;
+    font-size: 1.15rem;
+    margin-top: 0px;
+}
+
+
+/*  */
+
+nav {
+    position: sticky;
+    top: 0px;
+    display: flex;
+    height: 69px;
+    z-index: 1;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+}
+
+.logo {
+    margin-left: 10px;
+    height: 50px;
+    padding-right: 65%;
+}
+
+.linkText {
+    align-self: center;
+    padding-left: 1rem;
+
+}
+
+
+/* "Mission" area */
+
+.backgroundMission {
+
+    background-image: url(./img/img-mission-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 700px;
+    width: 1200px;
+
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+}
+
+.missionText {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 20%;
+}
+
+
+
+/* Featured Tea area */
+
+.featuredTea {
+    width: 1000px;
+    margin: auto;
+}
+
+.featuredImage {
+    width: 300px;
+    height: 200px;
+    /* padding: 0%; */
+}
+
+.featuredTeaContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.featuredTeaText {
+    margin-top: 10px;
+}
+
+/* Locations */
+
+#backgroundLocations {
+    margin: auto;
+
+    background-image: url(./img/img-locations-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 500px;
+    width: 1200px;
+}
+
+#locationsArticle {
+    display: flex;
+    justify-content: center;
+}
+
+#locationsTitle {
+
+background-color: none;
+margin-top: 5rem;
+ 
+}
