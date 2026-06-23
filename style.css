@@ -19,6 +19,10 @@ h2 {
 
 }
 
+h3 {
+    font-size: larger;
+}
+
 h4 {
     text-align: center;
     font-size: 1.15rem;
@@ -27,8 +31,6 @@ h4 {
 
 h5 {
     text-align: center;
-    font-size: 1.15rem;
-    margin-top: 0px;
 }
 
 
@@ -61,6 +63,8 @@ nav {
 
 .backgroundMission {
 
+   
+
     background-image: url(./img/img-mission-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -71,7 +75,7 @@ nav {
 
 }
 
-.mission {
+#mission {
     display: flex;
     justify-content: center;
 }
@@ -90,12 +94,14 @@ nav {
 
 /* Featured Tea area */
 
-.featuredTea {
+#featuredTea {
     width: 1000px;
     margin: auto;
 }
 
 .featuredImage {
+
+
     width: 300px;
     height: 200px;
     /* padding: 0%; */
@@ -104,7 +110,8 @@ nav {
 .featuredTeaContainer {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 1.5rem;
 }
 
 .featuredTeaText {
@@ -123,6 +130,9 @@ nav {
 
     height: 500px;
     width: 1200px;
+
+    background-position: 0% 25%;
+
 }
 
 #locationsArticle {
@@ -132,7 +142,52 @@ nav {
 
 #locationsTitle {
 
-background-color: none;
-margin-top: 5rem;
+    background-color: none;
+    margin-top: 5rem;
+    margin-bottom: 15px;
  
+}
+
+.allLocations {
+    display: flex;
+    justify-content: center;
+}
+
+.locations {
+    background-color: black;
+    opacity: 1;
+    margin-right: 40px;
+
+    width: 300px;
+    height: 300px;
+
+    text-align: center;
+}
+
+.locations h3 {
+    margin-top: 1.5rem;
+}
+
+.locations p {
+    margin-top: 1.5rem;
+}
+
+/* contact (before footer */
+
+#contact {
+    height: 200px;
+}
+
+#contact h2 {
+    margin-bottom: 1.5rem;
+}
+
+#contact h5 {
+    margin-bottom: 1rem;
+}
+
+footer {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left;
 }
